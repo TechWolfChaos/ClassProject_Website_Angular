@@ -1,0 +1,16 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    font-size: 80px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    color: red;
+}

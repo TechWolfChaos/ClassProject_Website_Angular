@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.mainTable {
+    display: flex;
+}
+
+.columnOne {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.columnTwo {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+th {
+    background-color: lightslategray;
+}
+
+label {
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+select {
+    font-size: 15px;
+    margin: 5px;
+    text-align: center;
+}
+
+svg path:hover {
+    fill: lightslategray;
+    transition: 0.6s;
+    cursor: pointer;
+}
